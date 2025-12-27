@@ -11,7 +11,6 @@ const postSchema = new Schema({
     },
     contents: {
         type: String,
-        required: [true, "content is required"]
     },
     tags: [{
         type: String
